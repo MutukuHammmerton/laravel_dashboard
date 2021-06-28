@@ -99,14 +99,16 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "workbench.action.toggleAutoSave",
-                        "label": "A&&uto Save"
+                        "label": "A&&uto Save",
+                        "checked": true
                     },
                     {
                         "id": "submenuitem.28",
@@ -1484,8 +1486,8 @@
             "backupPath": "/opt/lampp/htdocs/adminPanel/~/.vscode-root/Backups/56d18c74747df977307513222c151212",
             "uiState": {
                 "mode": 0,
-                "x": 448,
-                "y": 193,
+                "x": 458,
+                "y": 698,
                 "width": 1024,
                 "height": 768
             }
