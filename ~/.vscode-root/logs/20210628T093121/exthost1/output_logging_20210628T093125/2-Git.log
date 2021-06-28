@@ -1,0 +1,116 @@
+Looking for git in: git
+Using git 2.25.1 from git
+Opening repository for path='/opt/lampp/htdocs/adminPanel' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/opt/lampp/htdocs/adminPanel/.editorconfig' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/opt/lampp/htdocs/adminPanel/.env' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/opt/lampp/htdocs/adminPanel/.env.example' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/opt/lampp/htdocs/adminPanel/.gitattributes' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/opt/lampp/htdocs/adminPanel/.gitignore' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/opt/lampp/htdocs/adminPanel/.styleci.yml' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/opt/lampp/htdocs/adminPanel/README.md' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/opt/lampp/htdocs/adminPanel/app' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/opt/lampp/htdocs/adminPanel/artisan' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/opt/lampp/htdocs/adminPanel/bootstrap' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/opt/lampp/htdocs/adminPanel/composer.json' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/opt/lampp/htdocs/adminPanel/composer.lock' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/opt/lampp/htdocs/adminPanel/config' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/opt/lampp/htdocs/adminPanel/database' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/opt/lampp/htdocs/adminPanel/package.json' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/opt/lampp/htdocs/adminPanel/phpunit.xml' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/opt/lampp/htdocs/adminPanel/public' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/opt/lampp/htdocs/adminPanel/resources' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/opt/lampp/htdocs/adminPanel/routes' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/opt/lampp/htdocs/adminPanel/server.php' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/opt/lampp/htdocs/adminPanel/storage' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/opt/lampp/htdocs/adminPanel/tests' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/opt/lampp/htdocs/adminPanel/vendor' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/opt/lampp/htdocs/adminPanel/webpack.mix.js' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/opt/lampp/htdocs/adminPanel/~' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/opt/lampp/htdocs/adminPanel' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+> git rev-parse --git-dir
+Open repository: /opt/lampp/htdocs/adminPanel
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
